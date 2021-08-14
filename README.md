@@ -1,7 +1,11 @@
 # SpringSecurityBasic
 Demo app to show Spring Security Basic example
 
-	 * Default username : user
+# Dependencies added : 
+- spring-boot-starter-security
+- spring-boot-starter-web
+
+	 * Default username :  user
 	 * Default password: can be found in the IDE console when the app boots up
 	 * Using generated security password: <new password will be created on every run>
 	 * 
