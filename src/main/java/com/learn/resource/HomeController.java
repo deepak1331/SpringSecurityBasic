@@ -10,7 +10,11 @@ public class HomeController {
 	/***
 	 * Default username : user
 	 * Default password: can be found in the console when the app boots up
-	 * Using generated security password: 1574ad96-eb1e-4f9d-aa92-3cbf123b9e14
+	 * Using generated security password: <new password will be created on every run>
+	 * 
+	 * Or we can also add spring.security.user.name and  spring.security.user.password 
+	 * in the application.properties file and give some values to override spring
+	 * default password
 	 * @return
 	 */
 	@GetMapping("/")
